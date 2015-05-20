@@ -71,14 +71,14 @@
 			"title": "MetroArm",
 			"subtitle": "Arduino + Leap Motion Robotic Arm",
 			"details": [
-				"Record hand position using Leap Motion sensor and send the actions to the robotic arm through an Arduino Uno",
-				"Grand-prize winner of TreeHacks 2015",
-				"Responsible for iOS development and business planning"
+				"Designed and hand-made the 6-DOF robotic arm at a local machine shop",
+				"MetroArm records hand position using Leap Motion sensor and sends the actions to the robotic arm through an Arduino Uno",
+				"Grand-prize winner of TreeHacks 2015"
 			],
 			"appURL": "http://challengepost.com/software/metroarm",
 			"sourceURL": "https://github.com/ericye16/LeapControlledRobot",
 			"iconType": "icon-robot",
-			"imageLinks": ["pImg/metroArm1.jpg"]
+			"imageLinks": ["pImg/metroArm1.jpg","pImg/metroArm2.jpg","pImg/metroArm3.jpg","pImg/metroArm4.jpg","pImg/metroArm5.jpg"]
 		}, 
 		{
 			"title": "Hack the North 2014",
