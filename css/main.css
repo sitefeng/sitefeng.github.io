@@ -71,7 +71,7 @@ div#card{
 
 .dashlet-content {
 	background-color: #dfdfdf;
-	border-radius: 5px;
+	border-radius: 7px;
 }
 
 .dashlet-header {
@@ -122,6 +122,7 @@ div#card{
 #dashlet-image-enlarged {
 	width: 80%;
 	height: auto;
+	border-radius:7px;
 }
 
 
@@ -132,7 +133,7 @@ div#card{
 	border-width: 2px;
 	border-color: #8B6ECC;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 7px;
 	cursor: pointer;
 }
 
