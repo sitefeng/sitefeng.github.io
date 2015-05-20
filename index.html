@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/websiteLogo.png">
+
+    <title>Si Te Feng</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- IMPORTS -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/jquery.resize-image-aspect-ratio.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script> -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/main.js"></script>
+  
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body ng-app="PersonalWebsite" id="page-top" data-target=".navbar-fixed-top">
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Si Te Feng</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="#projects" class="page-scroll">Projects</a></li>
+                <li><a href="#writings" class="page-scroll">Writings</a></li>
+                <li><a href="resume.pdf" target="_blank">Résumé</a></li>
+                <li><a href="#contact" class="page-scroll">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div id="cardSection" class="container">
+
+    <div id="card" class="row">
+      <div id="card-content" class="col-lg-6 col-lg-offset-3 vertical-align">  <!--Content of Card-->
+        <img id="profile-img" src="images/profile.png" class="img-thumbnail"></img>
+        <h2>Si Te Feng</h2>
+        <p>Hacker · Designer</p>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- PROJECT SECTION -->
+    <div id="projects" class="container" ng-controller="ProjectsController as projectsCtrl">
+
+      <div class="row">
+        <div class="col-lg-12 section-title">
+          <img src="images/projectsIcon.png" alt="Projects Icon"/>
+          <span>Projects</span>
+        </div>
+      </div>
+
+      <div class="row dashlet-row">
+
+        <div class="col-md-4 dashlet col-sm-6 col-xs-12" ng-repeat="project in projectsCtrl.projects" ng-controller="DashletController as dashletCtrl">
+
+          <div class="dashlet-content">
+
+            <div class="dashlet-header">
+              <img ng-src="{{'images/' + project.iconType + '.png'}}" alt="Project Type Icon" class="vertical-align"/>
+              <div class="dashlet-header-right vertical-align">
+                <p class="project-title">{{project.title}}</p> 
+                <p class="project-subtitle">{{project.subtitle}}</p>
+              </div>
+            </div>
+
+            <div class="dashlet-body">
+
+              <ul class="nav nav-pills" id="dashlet-tabs">
+                <li ng-class="{active:dashletCtrl.activeTab==0}"><a href ng-click="dashletCtrl.tabClicked(0)">Description</a></li>
+                <li ng-class="{active:dashletCtrl.activeTab==1}"><a href ng-click="dashletCtrl.tabClicked(1)">Images</a></li>
+              </ul>
+            
+              <div class="dashlet-body-content">
+                <ul id="dashlet-description" ng-show="dashletCtrl.isActiveTab(0)">
+                  <li ng-repeat="detail in project.details">
+                    {{detail}}
+                  </li>
+                </ul>
+                <div id="dashlet-images" ng-show="dashletCtrl.isActiveTab(1)">
+                  <p><img id="dashlet-image-enlarged" ng-src="{{project.imageLinks[dashletCtrl.activeImg]}}" alt="Image Enlarged"></img></p>
+                  <img id="dashlet-image-preview" ng-repeat="img in project.imageLinks" ng-src="{{img}}" alt="Image Previews" ng-click="dashletCtrl.imgClicked($index)"></img>
+                </div>
+              </div>
+            </div>
+
+            <div class="dashlet-footer">
+              <a href="{{project.sourceURL}}" target="_blank" class="btn btn-default" ng-show="dashletCtrl.hasSourceURL(project)">View Source</a>
+              <a href="{{project.appURL}}" target="_blank" class="btn btn-default" ng-show="dashletCtrl.hasAppURL(project)">View App</a>
+            </div>
+          </div> <!-- end of dashlet content -->
+        </div> <!-- end of dashlet -->
+
+
+      </div> <!-- end of dashlets row -->
+    </div> <!-- end of projects container -->
+
+    </br>
+
+
+    <!-- WRITINGS SECTION -->
+    <div id="writings" class="container" ng-controller="WritingsController as writingsCtrl">
+
+      <div class="row">
+        <div class="col-lg-12 section-title">
+          <img src="images/writingsIcon.png" alt="Projects Icon"/>
+          <span>Writings</span>
+        </div>
+      </div>
+
+      <div class="row writing-container">
+        <div id="writing" class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="writing in writingsCtrl.writings" ng-click="writingsCtrl.openLink($index)">
+          <p>{{writing.title}}</p>
+          <p>{{writing.date}}</p>
+        </div>
+        <div id="writing-book" class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-click="writingsCtrl.openBook(0)">
+        </div>
+      </div>
+    </div>
+
+    </br>
+
+    <!-- CONTACT SECTION -->
+    <div id="contact" class="container" ng-controller="ContactController as contactCtrl">
+      <div class="row">
+        <div class="col-lg-12 section-title">
+          <img src="images/contactIcon.png" alt="Projects Icon"/>
+          <span>Contact</span>
+        </div>
+      </div>
+
+      <div class="row dashlet-row">
+        <div id="contact" class="col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3">
+          <div class="dashlet-content">
+
+            <div class="dashlet-header">
+              <img src="images/profile.png" alt="Profile Icon" class="img-circle vertical-align"/>
+              <div class="dashlet-header-right vertical-align">
+                <p class="project-title">Si Te Feng</p> 
+                <p class="project-subtitle">3A Mechatronics Engineering</p>
+              </div>
+            </div>
+
+            <div id="contact-body" class="dashlet-body">
+              <p>Studying at University of Waterloo</p>
+              <p>Phone: 226-220-3708</p>
+              <p>Email: <a href="mailto:fengsite@hotmail.com" class="contact-link">fengsite@hotmail.com</a></p>
+              <p><a href="https://www.linkedin.com/profile/view?id=179574007" class="contact-link" target="_blank">LinkedIn</a></p>
+              <p><a href="https://github.com/sitefeng" class="contact-link" target="_blank">GitHub</a></p>
+              <p><a href="https://www.facebook.com/fengsite" class="contact-link" target="_blank">Facebook</a></p>
+              <p><a href="https://twitter.com/" class="contact-link" target="_blank">Twitter</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </br>
+      <div class="row">
+        <footer>SI TE FENG © 2015 ALL RIGHTS RESERVED</footer>
+      </div>
+    </div>
+
+    <!-- Javascript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+

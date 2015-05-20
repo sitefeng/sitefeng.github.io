@@ -1,0 +1,242 @@
+#navbar {
+	padding-right: 20px;
+}
+
+.section-title {
+	text-align: center;
+	background-color: #C0C0C0;
+	padding: 15px;
+}
+
+.section-title > img {
+	height: 40px;
+	width: 40px;
+	margin-top: -10px;
+}
+
+.section-title > span {
+	font-size: 24pt;
+}
+
+/*WELCOME SECTION*/
+
+#cardSection{
+	width: 100%;
+	height: 600px;
+	margin: 70px 0px 50px;
+	background: url("../images/qnc.png") center fixed no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+div#card{
+	background: rgba(0,0,0,0.65);
+	position: relative;
+	height: 400px;
+	top: 100px;
+}
+
+/*Contents of the Card*/
+
+#profile-img {
+	width: 150px;
+	height: 150px;
+}
+
+#card-content{
+	color: white;
+	text-align: center;
+}
+
+#card-content > h2{
+	font: 40pt sans-serif;
+}
+
+#card-content > p{
+	font: 25pt sans-serif;
+	color: #C0C0C0;
+}
+
+
+/*DASHLET SECTION*/
+
+.dashlet-row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dashlet {
+	padding: 10px;
+}
+
+.dashlet-content {
+	background-color: #dfdfdf;
+	border-radius: 5px;
+}
+
+.dashlet-header {
+	background-color: rgba(255,255,255,0.3);
+	height: 80px;
+	width: auto;
+	text-align: center;
+}
+
+
+.dashlet-header > img {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin: -35px 0px 0px;
+}
+
+.dashlet-header-right {
+	display: inline-block;
+	text-align: left;
+}
+
+.dashlet-header-right > p {
+	margin: 0px;
+}
+
+.project-title {
+	font: 17pt bold "Helvetica Neue";
+}
+
+.project-subtitle {
+	font: 12pt "Helvetica Neue";
+}
+
+.dashlet-body {
+	clear: both;
+	margin: 10px;
+}
+
+.dashlet-body-content {
+	margin: 5%;
+}
+
+#dashlet-images {
+	text-align: center;
+}
+
+#dashlet-image-enlarged {
+	width: 80%;
+	height: auto;
+}
+
+
+#dashlet-image-preview {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	border-width: 2px;
+	border-color: #8B6ECC;
+	border-style: solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.dashlet-footer {
+	text-align: right;
+}
+
+/*WRITINGS SECTION*/
+.writing-container {
+	margin-top: 20px;
+}
+
+#writing {
+	height: 400px;
+	background-image: url("../images/book.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#writing-book {
+	height: 420px;
+	background-image: url("../images/book-cover-1.jpg");
+	background-size: 85%;
+	background-position: top;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#writing > p {
+	margin-left:22%;
+	margin-right: 9%;
+	text-align: center;
+}
+
+#writing >p:first-of-type {
+	position: absolute;
+	font-size: 13pt;
+	font-weight: bold;
+	margin-top: 20%;
+}
+
+#writing >p:nth-of-type(2) {
+	position: absolute;
+	font:13pt serif ;
+	margin-top: 90%;
+}
+
+/*Footer*/
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+
+/*CONTACT SECTION*/
+#contact-body {
+	text-align: center;
+	padding: 10px;
+}
+
+.contact-link {
+	font-style: normal;
+	color: #8B6ECC;
+}
+
+/*Common*/
+
+.nav-pills a {
+	color: #8B6ECC;
+	font-weight: bold;
+}
+
+.vertical-align {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.navbar {
+	position: fixed;
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.highlight-border {
+	border-color: #8B6FFF;
+}
+
+
+/* Not Used Yet*/
+.dashlet-background-image {
+	position: absolute;
+	z-index: 0;
+	background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
+  	background-size: cover;
+  	filter: blur(5px);
+  	-webkit-filter: blur(5px);
+  	height: 100px;
+  	width: auto;
+}
+
