@@ -81,7 +81,7 @@
 			"appURL": "http://challengepost.com/software/metroarm",
 			"sourceURL": "https://github.com/ericye16/LeapControlledRobot",
 			"iconType": "icon-robot",
-			"imageLinks": ["pImg/metroArm1.jpg","pImg/metroArm2.jpg","pImg/metroArm3.jpg","pImg/metroArm4.jpg","pImg/metroArm5.jpg"]
+			"imageLinks": ["pImg/metroArm6.jpg", "pImg/metroArm1.jpg","pImg/metroArm2.jpg","pImg/metroArm3.jpg","pImg/metroArm4.jpg","pImg/metroArm5.jpg"]
 		}, 
 		{
 			"title": "Uniq (Beta)",
