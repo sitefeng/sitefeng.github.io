@@ -57,6 +57,20 @@
 
 	var projects = [
 		{
+			"title": "Hack the North",
+			"subtitle": "iPhone App",
+			"details": [
+				"Designed and built an iPhone app that allows hackers to quickly find the information they need during Hack the North 2014 at University of Waterloo (Objective-C)",
+				"Collaborated with the Android team to come with the feature specifications",
+				"Currently developing the iPhone app for Hack the North 2015 (Swift)",
+				"2014:(July, 2014 - Sep, 2014), 2015:(May, 2015 - Sep, 2015)"
+			],
+			"appURL": "https://itunes.apple.com/us/app/hack-the-north/id917531622?ls=1&mt=8",
+			"sourceURL": "https://github.com/hackathon/hackthenorth-mobile",
+			"iconType": "icon-hackTheNorth",
+			"imageLinks": ["pImg/hacka.png", "pImg/hackb.png", "pImg/hackc.png", "pImg/hackd.png", "pImg/hacke.png", "pImg/hack1.png", "pImg/hack2.png", "pImg/hack3.png", "pImg/hack4.png", "pImg/hack5.png", "pImg/hack6.png", "pImg/hack7.png", "pImg/hack8.png"]
+		},
+		{
 			"title": "Fusion Smartstrap",
 			"subtitle": "Watch strap for Pebble Time",
 			"details": [
@@ -95,20 +109,6 @@
 			"appURL": "http://uniq.webuda.com/",
 			"iconType": "icon-uniq",
 			"imageLinks": ["pImg/uniq1.png", "pImg/uniq2.png", "pImg/uniq3.png", "pImg/uniq4.png"]
-		},
-		{
-			"title": "Hack the North",
-			"subtitle": "iPhone App",
-			"details": [
-				"Designed and built an iPhone app that allows hackers to quickly find the information they need during Hack the North 2014 at University of Waterloo (Objective-C)",
-				"Collaborated with the Android team to come with the feature specifications",
-				"Currently developing the iPhone app for Hack the North 2015 (Swift)",
-				"2014:(July, 2014 - Sep, 2014), 2015:(May, 2015 - present)"
-			],
-			"appURL": "https://itunes.apple.com/us/app/hack-the-north/id917531622?ls=1&mt=8",
-			"sourceURL": "https://github.com/hackthenorth/hackthenorth-ios",
-			"iconType": "icon-hackTheNorth",
-			"imageLinks": ["pImg/hack1.png", "pImg/hack2.png", "pImg/hack3.png", "pImg/hack4.png", "pImg/hack5.png", "pImg/hack6.png", "pImg/hack7.png", "pImg/hack8.png"]
 		},
 		{
 			"title": "Space 7",
