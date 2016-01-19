@@ -91,9 +91,10 @@
 				"Rebuilt the app in Swift for 2015 version with the new 'Uber for Mentor' feature, which allows hackers to conveniently request a person to help them on demand",
 				"2014:(July, 2014 - Sep, 2014), 2015:(May, 2015 - Sep, 2015)"
 			],
-			"sourceURL": "https://github.com/hackthenorth/hackthenorth-ios",
+			"sourceURL": "https://www.dropbox.com/sh/fzswya0vv9nvyhg/AAAk_xExwvqkBCWuQmGns_QHa?dl=0",
+			"appURL": "https://github.com/hackthenorth/hackthenorth-ios",
 			"iconType": "icon-hackTheNorth",
-			"imageLinks": ["pImg/hacka.png", "pImg/hackb.png", "pImg/hackc.png", "pImg/hackd.png", "pImg/hacke.png", "pImg/hack1.png", "pImg/hack2.png", "pImg/hack3.png", "pImg/hack4.png", "pImg/hack5.png", "pImg/hack6.png"]
+			"imageLinks": ["pImg/hacka.png", "pImg/hackb.png", "pImg/hackc.png", "pImg/hackd.png", "pImg/hacke.png", "pImg/hack1.png", "pImg/hack2.png", "pImg/hack3.png", "pImg/hack4.png", "pImg/hack5.png", "pImg/hack6.png", "pImg/hack7.png"]
 		}, 
 		{
 			"title": "MetroArm",
@@ -165,7 +166,7 @@
 
 	var writings = [
 		{
-		"title": "Articles On Medium",
+		"title": "Medium Articles",
 		"date": "",
 		"pdfLink": "https://medium.com/@sitefeng",
 		},
