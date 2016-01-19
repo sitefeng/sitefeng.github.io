@@ -92,7 +92,6 @@
 				"2014:(July, 2014 - Sep, 2014), 2015:(May, 2015 - Sep, 2015)"
 			],
 			"sourceURL": "https://www.dropbox.com/sh/fzswya0vv9nvyhg/AAAk_xExwvqkBCWuQmGns_QHa?dl=0",
-			"appURL": "https://github.com/hackthenorth/hackthenorth-ios",
 			"iconType": "icon-hackTheNorth",
 			"imageLinks": ["pImg/hacka.png", "pImg/hackb.png", "pImg/hackc.png", "pImg/hackd.png", "pImg/hacke.png", "pImg/hack1.png", "pImg/hack2.png", "pImg/hack3.png", "pImg/hack4.png", "pImg/hack5.png", "pImg/hack6.png", "pImg/hack7.png"]
 		}, 
@@ -132,7 +131,7 @@
 				"Responsible for iOS development in Objective-C, Swift with business planning on the side",
 				"(Nov, 2013 – Nov, 2014)"
 			],
-			"appURL": "http://uniq.webuda.com/",
+			"sourceURL": "https://github.com/sitefeng/Uniq-iOS",
 			"iconType": "icon-uniq",
 			"imageLinks": ["pImg/uniq1.png", "pImg/uniq2.png", "pImg/uniq3.png", "pImg/uniq4.png"]
 		},
@@ -145,7 +144,6 @@
 				"Two game modes with static velocity control and acceleration based control",
 				"(Oct, 2013 - Nov, 2013)"
 			],
-			"appURL": "https://itunes.apple.com/US/app/id733590789?mt=8",
 			"sourceURL": "https://github.com/sitefeng/Space7",
 			"iconType": "icon-space7",
 			"imageLinks": ["pImg/space1.png", "pImg/space2.png", "pImg/space3.png", "pImg/space4.png", "pImg/space5.png"]
