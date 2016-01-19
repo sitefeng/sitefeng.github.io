@@ -57,6 +57,45 @@
 
 	var projects = [
 		{
+			"title": "Voxel",
+			"subtitle": "Lightpainting Magic Wand",
+			"details": [
+				"A wifi enabled and modular LED stick that connects to a smartphone. Gives photographers an innovative tool to create lightpainting at night with ease.",
+				"Collaborating 3 co-founders on this long-term project aimed towards mass production and profitability",
+				"Responsible for mechanical design, embedded programming, iOS development, and product management",
+				"(Dec, 2015 - Present)"
+			],
+			"sourceURL": "https://github.com/sitefeng/Voxel",
+			"iconType": "icon-voxel",
+			"imageLinks": ["pImg/voxel1.jpg", "pImg/voxel2.jpg","pImg/voxel3.png","pImg/voxel4.jpg","pImg/voxel5.png","pImg/voxel6.png"]
+		},
+		{
+			"title": "Relay",
+			"subtitle": "Sign in with your Fingerprint",
+			"details": [
+				"Sign in to all social websites with iPhone TouchID",
+				"Using Chrome Extension, Firebase, and Native iOS app",
+				"Grand-prize winner of MHacks 2015 at University of Michigan",
+				"(Sep, 2015)"
+			],
+			"appURL": "http://devpost.com/software/relay-4o05pb",
+			"iconType": "icon-relay",
+			"imageLinks": ["pImg/relay1.jpg", "pImg/relay2.jpg","pImg/relay3.jpg","pImg/relay4.png","pImg/relay5.png"]
+		},
+		{
+			"title": "Hack the North",
+			"subtitle": "iPhone App",
+			"details": [
+				"Designed, built, and released the iOS app for Hack the North at University of Waterloo for the last two years",
+				"Collaborated with the Android team to come up with the feature specifications",
+				"Rebuilt the app in Swift for 2015 version with the new 'Uber for Mentor' feature, which allows hackers to conveniently request a person to help them on demand",
+				"2014:(July, 2014 - Sep, 2014), 2015:(May, 2015 - Sep, 2015)"
+			],
+			"sourceURL": "https://github.com/hackthenorth/hackthenorth-ios",
+			"iconType": "icon-hackTheNorth",
+			"imageLinks": ["pImg/hacka.png", "pImg/hackb.png", "pImg/hackc.png", "pImg/hackd.png", "pImg/hacke.png", "pImg/hack1.png", "pImg/hack2.png", "pImg/hack3.png", "pImg/hack4.png", "pImg/hack5.png", "pImg/hack6.png"]
+		}, 
+		{
 			"title": "MetroArm",
 			"subtitle": "Arduino + Leap Motion Robotic Arm",
 			"details": [
@@ -77,33 +116,19 @@
 				"Adds wireless charging capability to the Pebble Time smartwatch and extends the battery life on Pebble Time from 7 days to more than 40 days",
 				"Created Solidworks models of the back casing and the strap with battery compartments",
 				"Researched on electrical components to use",
-				"(April, 2015 - present)"
+				"(April, 2015 - August, 2015)"
 			],
 			"sourceURL": "https://github.com/ericye16/fusion",
 			"iconType": "icon-fusion",
 			"imageLinks": ["pImg/fusion1.png","pImg/fusion2.png","pImg/fusion3.png","pImg/fusion4.png","pImg/fusion5.png"]
 		}, 
 		{
-			"title": "Hack the North",
-			"subtitle": "iPhone App",
-			"details": [
-				"Designed and built an iPhone app that allows hackers to quickly find the information they need during Hack the North 2014 at University of Waterloo (Objective-C)",
-				"Collaborated with the Android team to come with the feature specifications",
-				"Currently developing the iPhone app for Hack the North 2015 (Swift)",
-				"2014:(July, 2014 - Sep, 2014), 2015:(May, 2015 - Sep, 2015)"
-			],
-			"appURL": "https://itunes.apple.com/us/app/hack-the-north/id917531622?ls=1&mt=8",
-			"sourceURL": "https://github.com/hackathon/hackthenorth-mobile",
-			"iconType": "icon-hackTheNorth",
-			"imageLinks": ["pImg/hacka.png", "pImg/hackb.png", "pImg/hackc.png", "pImg/hackd.png", "pImg/hacke.png", "pImg/hack1.png", "pImg/hack2.png", "pImg/hack3.png", "pImg/hack4.png", "pImg/hack5.png", "pImg/hack6.png", "pImg/hack7.png", "pImg/hack8.png"]
-		}, 
-		{
 			"title": "Uniq (Beta)",
 			"subtitle": "iOS Universal App",
 			"details": [
 				"Co-founded Uniq, a college information assistant for high school students on mobile devices with integration to custom backend",
-				"Uniq dramatically reduces the time spent on college research by condensing program information from various colleges into one unified app, so that the data is personalized and easy to access",
-				"Responsible for iOS development(Objective-C, Swift) and business planning",
+				"Dramatically reduces the time spent on college research by condensing program information from various colleges into one unified app, so that the data is both personalized and easy to access",
+				"Responsible for iOS development in Objective-C, Swift with business planning on the side",
 				"(Nov, 2013 – Nov, 2014)"
 			],
 			"appURL": "http://uniq.webuda.com/",
@@ -138,7 +163,13 @@
 		}
 	];
 
-	var writings = [{
+	var writings = [
+		{
+		"title": "Articles On Medium",
+		"date": "",
+		"pdfLink": "https://medium.com/@sitefeng",
+		},
+		{
 		"title": "Report for Functional Reactive Programming and MVVM",
 		"date": "May 1, 2015",
 		"pdfLink": "pdfs/report1.pdf",
