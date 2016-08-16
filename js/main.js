@@ -123,7 +123,7 @@
 			"imageLinks": ["pImg/fusion1.png","pImg/fusion2.png","pImg/fusion3.png","pImg/fusion4.png","pImg/fusion5.png"]
 		}, 
 		{
-			"title": "Uniq (Beta)",
+			"title": "Uniq",
 			"subtitle": "iOS Universal App",
 			"details": [
 				"Co-founded Uniq, a college information assistant for high school students on mobile devices with integration to custom backend",
@@ -132,6 +132,7 @@
 				"(Nov, 2013 – Nov, 2014)"
 			],
 			"sourceURL": "https://github.com/sitefeng/Uniq-iOS",
+			"appURL": "http://www.sitefeng.info/uniq.html",
 			"iconType": "icon-uniq",
 			"imageLinks": ["pImg/uniq1.png", "pImg/uniq2.png", "pImg/uniq3.png", "pImg/uniq4.png"]
 		},
