@@ -114,7 +114,7 @@
 			"subtitle": "iOS Universal App",
 			"details": [
 				"A college information assistant for high school students on mobile devices with integration to custom backend",
-				"Dramatically reduces the time spent on college research by condensing program information from various colleges into one unified app, so that the data is both personalized and easy to access",
+				"Dramatically reduces the time spent on college research by condensing program information from various colleges into one personalized app",
 				"Responsible for iOS development in Objective-C, Swift, and business planning",
 				"(Nov, 2013 – Nov, 2014)"
 			],
