@@ -45,7 +45,8 @@
 		}
 
 		this.openBook = function(writingNum) {
-			$window.open("pdfs/ideas-for-post-human-civilization.pdf");
+			// $window.open("pdfs/ideas-for-post-human-civilization.pdf");
+			$window.open("https://store.kobobooks.com/en-us/ebook/ideas-for-post-human-civilization")
 		}
 
 	}]);
