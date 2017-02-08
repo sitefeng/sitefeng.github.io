@@ -58,6 +58,19 @@
 
 	var projects = [
 		{
+			"title": "HappenVR",
+			"subtitle": "Virtual Reality Haptics Glove",
+			"details": [
+				"Providing enhanced virtual reality experience for medical therapy",
+				"Designing a custom virtual reality gloves with force and tactile feedback",
+				"Integrates with Oculus, Leap Motion for full immersion",
+				"(since September, 2016)"
+			],
+			"appURL": "http://happenvr.com/",
+			"iconType": "icon-happen",
+			"imageLinks": ["pImg/happen1.png", "pImg/happen2.png"]
+		}, 
+		{
 			"title": "Dojo",
 			"subtitle": "iPhone App",
 			"details": [
@@ -69,7 +82,7 @@
 			"sourceURL": "https://github.com/sitefeng/dojo",
 			"iconType": "icon-dojo",
 			"imageLinks": ["pImg/dojo1.png", "pImg/dojo2.png", "pImg/dojo3.png", "pImg/dojo4.png", "pImg/dojo5.png", "pImg/dojo6.png"]
-		} , 
+		}, 
 		{
 			"title": "Relay",
 			"subtitle": "Sign in with your Fingerprint",
