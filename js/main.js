@@ -198,6 +198,11 @@
 		"pdfLink": "https://medium.com/@sitefeng",
 		},
 		{
+		"title": "HappenVR Haptics Glove",
+		"date": "Apr 3, 2017",
+		"pdfLink": "pdfs/report4.pdf",
+		},
+		{
 		"title": "PaperlessAI Prototype",
 		"date": "Sep 19, 2016",
 		"pdfLink": "pdfs/report1.pdf",
