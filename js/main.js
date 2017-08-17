@@ -58,13 +58,25 @@
 
 	var projects = [
 		{
+			"title": "AskDonna",
+			"subtitle": "Personal advice, anonymously",
+			"details": [
+				"A platform for people with diverse opinions to easily come together and give each other valuable personal and emotional advices.",
+				"Control what the public can see. Users have the ability to post questions anonymously and have it answered by only one person through a random match.",
+				"(since July, 2016)"
+			],
+			"appURL": "https://askdonna.org",
+			"iconType": "icon-donna",
+			"imageLinks": ["pImg/donna1.png", "pImg/donna2.png", "pImg/donna3.png", "pImg/donna4.png"]
+		}, 
+		{
 			"title": "HappenVR",
 			"subtitle": "Virtual Reality Haptics Glove",
 			"details": [
 				"Providing enhanced virtual reality experience for medical therapy",
 				"Designing a custom virtual reality gloves with force and tactile feedback",
 				"Integrates with Oculus, Leap Motion for full immersion",
-				"(since September, 2016)"
+				"(September, 2016 - April, 2017)"
 			],
 			"appURL": "http://happenvr.com/",
 			"iconType": "icon-happen",
