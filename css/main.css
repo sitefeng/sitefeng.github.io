@@ -54,11 +54,27 @@ div#card{
 
 #card-content > p:nth-of-type(1){
 	font: 15pt sans-serif;
-	color: #FFFFFF;
+	color: #C0C0C0;
 }
 
 #card-content > p:nth-of-type(2){
-	font: 25pt sans-serif;
+	font: 15pt sans-serif;
+	color: #C0C0C0;
+}
+
+#card-content > p:nth-of-type(3){
+	font: 15pt sans-serif;
+	color: #C0C0C0;
+}
+
+#card-content > p:nth-of-type(4){
+	font: 15pt sans-serif;
+	color: #C0C0C0;
+}
+
+.header-link {
+	font-style: normal;
+  text-decoration: underline;
 	color: #C0C0C0;
 }
 

@@ -21,7 +21,7 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script> -->
     <script src="js/angular.min.js"></script>
     <script src="js/main.js"></script>
-  
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -64,8 +64,10 @@
       <div id="card-content" class="col-lg-6 col-lg-offset-3 vertical-align">  <!--Content of Card-->
         <!-- <img id="profile-img" src="images/profile.png" class="img-thumbnail"></img> -->
         <h2>Si Te Feng</h2>
-        <p>University of Waterloo</p>
-        <p>Software + Robotics</p>
+        <p>Hi there! I’ve shown some of my creations here, including projects and blog posts.</p>
+        <p>I work at <a href="https://www.apple.com/ios/ios-13/features/" class="header-link">Apple</a> on the iOS/macOS Calendar team.</p>
+        <p>Before that, I was working on creating <a href="https://biotronfydp.github.io" class="header-link">HappenVR</a>, a pair of VR haptics gloves that use TENS to help patients with physical rehabilitation.</p>
+        <p>Please feel free to reach out if I can help you achieve that next miletone.</p>
       </div>
     </div>
 
@@ -90,7 +92,7 @@
             <div class="dashlet-header">
               <img ng-src="{{'images/' + project.iconType + '.png'}}" alt="Project Type Icon" class="vertical-align"/>
               <div class="dashlet-header-right vertical-align">
-                <p class="project-title">{{project.title}}</p> 
+                <p class="project-title">{{project.title}}</p>
                 <p class="project-subtitle">{{project.subtitle}}</p>
               </div>
             </div>
@@ -101,7 +103,7 @@
                 <li ng-class="{active:dashletCtrl.activeTab==0}"><a href ng-click="dashletCtrl.tabClicked(0)">Description</a></li>
                 <li ng-class="{active:dashletCtrl.activeTab==1}"><a href ng-click="dashletCtrl.tabClicked(1)">Images</a></li>
               </ul>
-            
+
               <div class="dashlet-body-content">
                 <ul id="dashlet-description" ng-show="dashletCtrl.isActiveTab(0)">
                   <li ng-repeat="detail in project.details">
@@ -167,19 +169,15 @@
             <div class="dashlet-header">
               <img src="images/profile.png" alt="Profile Icon" class="img-circle vertical-align"/>
               <div class="dashlet-header-right vertical-align">
-                <p class="project-title">Si Te Feng</p> 
-                <p class="project-subtitle">Mechatronics Engineering '17</p>
+                <p class="project-title">Si Te Feng</p>
+                <p class="project-subtitle">Software Engineer</p>
               </div>
             </div>
 
             <div id="contact-body" class="dashlet-body">
-              <p>University of Waterloo</p>
-              <p>Cell: 226-505-0223</p>
-              <p>Email: <a href="mailto:fengsite@hotmail.com" class="contact-link">fengsite@hotmail.com</a></p>
+              <p><a href="mailto:fengsite@hotmail.com" class="contact-link">fengsite@hotmail.com</a></p>
               <p><a href="https://www.linkedin.com/profile/view?id=179574007" class="contact-link" target="_blank">LinkedIn</a></p>
               <p><a href="https://github.com/sitefeng" class="contact-link" target="_blank">GitHub</a></p>
-              <p><a href="http://devpost.com/sitefeng?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" class="contact-link" target="_blank">DevPost</a></p>
-              <p><a href="https://www.facebook.com/fengsite" class="contact-link" target="_blank">Facebook</a></p>
               <p><a href="https://twitter.com/" class="contact-link" target="_blank">Twitter</a></p>
             </div>
           </div>
@@ -196,10 +194,3 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
