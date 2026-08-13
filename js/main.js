@@ -78,7 +78,7 @@
 				"Integrates with Oculus, Leap Motion for full immersion",
 				"(September, 2016 - April, 2017)"
 			],
-			"appURL": "BioTronFYDP.github.io",
+			"appURL": "https://biotronfydp.github.io",
 			"iconType": "icon-happen",
 			"imageLinks": ["pImg/happen1.png", "pImg/happen2.png"]
 		}, 
